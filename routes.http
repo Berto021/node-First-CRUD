@@ -1,0 +1,30 @@
+POST http://localhost:3033/videos
+Content-Type: application/json
+
+{
+  "title": "node",
+  "description":"video muito legalkkk",
+  "duration": 200
+}
+
+###
+
+GET http://localhost:3033/videos
+
+
+###
+PUT http://localhost:3033/videos/70af9bca-deae-4995-929e-e4e818d2859c
+Content-Type: application/json
+
+{
+  "title": "VIDEO 2",
+  "description":"video muito chato",
+  "duration": 200
+}
+
+###
+DELETE  http://localhost:3033/videos/5573cf3a-79f2-472a-bda1-ea3a5176760c
+
+
+
+
